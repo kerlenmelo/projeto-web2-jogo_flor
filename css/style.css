@@ -1,0 +1,107 @@
+:root {
+  /* Cores principais */
+  --cor-primaria: #68cdf5; /* Azul claro */
+  --cor-secundaria: #3bdef0; /* Azul mais intenso */
+  --cor-terciaria: #78f5b6; /* Verde suave */
+
+  /* Cores de fundo */
+  --cor-background: #f9f871; /* Amarelo suave */
+  --cor-background-secundaria: #e6f4f1; /* Cor de fundo secundário (suave) */
+
+  /* Cores de texto */
+  --cor-texto-primaria: #333333; /* Texto principal (escuro e legível) */
+  --cor-texto-secundaria: #b7fa8f; /* Texto secundário (verde claro) */
+
+  /* Cores para bordas e divisões */
+  --border-color: #a0376b; /* Cor de borda (tom de vermelho) */
+
+  /* Cores para detalhes */
+  --cor-acento: #78f5b6; /* Verde suave para detalhes menores e botões */
+  --cor-contraste: #b7fa8f; /* Verde suave mais claro para chamar atenção */
+
+  /* Cores de alerta e status */
+  --success-color: #78f5b6; /* Cor de sucesso (verde suave) */
+  --error-color: #f9f871; /* Cor de erro (amarelo suave) */
+  --info-color: #68cdf5; /* Cor para informações (azul claro) */
+
+  /* Cores para links */
+  --cor-link: #1d97bd; /* Azul escuro para links */
+  --cor-link-hover: #69b3ee; /* Azul mais suave para hover nos links */
+
+  /* Cores de fundo alternativo */
+  --cor-highlight-background: #c5f8ff; /* Azul muito claro */
+  --cor-dark-background: #793200; /* Marrom escuro */
+}
+
+/*——— Reset ———*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+/* Estilos adicionados/modificados */
+body {
+  font-family: "Arial", sans-serif;
+  display: flex; /* Usado para centralizar o conteúdo de 'main' */
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  min-height: 100vh; /* Ocupa a altura total da viewport */
+  background-color: var(--cor-background);
+  color: var(--cor-texto-primaria);
+}
+
+main {
+  background-color: var(--cor-background-secundaria);
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  text-align: center;
+  max-width: 600px; /* Limita a largura máxima do contêiner do jogo */
+  width: 100%; /* Garante que ele ocupe a largura disponível até o max-width */
+}
+
+h1,
+h2 {
+  color: var(--cor-secundaria);
+  margin-bottom: 20px;
+}
+
+p {
+  margin-bottom: 10px;
+  line-height: 1.5; /* Melhorar a legibilidade do texto */
+}
+
+/* Estilos para botões (geral) */
+button {
+  background-color: var(--cor-acento);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 1em;
+  transition: background-color 0.3s ease; /* Efeito suave ao passar o mouse */
+}
+
+button:hover {
+  background-color: var(--cor-link-hover);
+}
+
+/* Estilos para as telas (que serão geradas pelo JS) */
+.tela-inicial,
+.tela-jogo,
+.tela-input-jogador2 {
+  /* Incluindo esta classe para o futuro */
+  display: flex; /* Flexbox para organizar o conteúdo */
+  flex-direction: column; /* Itens empilhados verticalmente */
+  align-items: center; /* Centraliza itens horizontalmente */
+  justify-content: center; /* Centraliza itens verticalmente (se houver espaço) */
+  gap: 20px; /* Espaço entre os elementos filhos */
+}
+
+.botoes-iniciais {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}

@@ -39,7 +39,7 @@
   padding: 0;
   box-sizing: border-box;
 }
-/* Estilos adicionados/modificados */
+/*——— Estilos adicionados/modificados ———*/
 body {
   font-family: "Arial", sans-serif;
   display: flex;
@@ -71,7 +71,7 @@ p {
   line-height: 1.5;
 }
 
-/* Estilos para botões (geral) */
+/*——— Estilos para botões (geral) ———*/
 button {
   background-color: var(--cor-acento);
   color: white;
@@ -88,7 +88,7 @@ button:hover {
   background-color: var(--cor-link-hover);
 }
 
-/* Estilos para as telas */
+/*——— Estilos para as telas ———*/
 .tela-inicial,
 .tela-jogo,
 .tela-input-jogador2 {
@@ -105,7 +105,7 @@ button:hover {
   margin-top: 20px;
 }
 
-/* Tela do Jogo */
+/*——— Tela do Jogo ———*/
 .tela-jogo .info-jogo {
   margin-top: 20px;
   background-color: var(--cor-background-secundaria);
@@ -134,7 +134,7 @@ button:hover {
   margin: 0 auto;
 }
 
-/* Teclado Virtual */
+/*——— Teclado Virtual ———*/
 .teclado-container {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(40px, 1fr));
@@ -161,7 +161,7 @@ button:hover {
   background-color: var(--cor-link-hover);
 }
 
-/* Estilo para letras já tentadas (desabilitadas) */
+/*——— Estilo para letras já tentadas (desabilitadas) ———*/
 .teclado-letra.tentada {
   background-color: #a0376b;
   color: #eee;
@@ -172,29 +172,29 @@ button:hover {
   opacity: 0.6;
 }
 
-.teclado-letra.coreto {
+.teclado-letra.tentada.correta {
   background-color: var(--success-color);
   color: #eee;
   cursor: not-allowed;
   opacity: 0.6;
 }
 
-.teclado-letra.tentada-certo[disabled] {
+.teclado-letra.tentada.correta[disabled] {
   opacity: 0.6;
 }
 
-.teclado-letra.errado {
+.teclado-letra.tentada.errada {
   background-color: var(--border-color);
   color: #eee;
   cursor: not-allowed;
   opacity: 0.6;
 }
 
-.teclado-letra.errado[disabled] {
+.teclado-letra.tentada.errada[disabled] {
   opacity: 0.6;
 }
 
-/* Mensagens de feedback (sucesso, erro, info) */
+/*——— Mensagens de feedback (sucesso, erro, info) ———*/
 .mensagem-display {
   margin-top: 15px;
   padding: 10px;
@@ -221,7 +221,7 @@ button:hover {
   color: white;
 }
 
-/* Botões de fim de jogo */
+/*——— Botões de fim de jogo ———*/
 .botoes-fim-jogo {
   margin-top: 20px;
   display: none;
@@ -235,7 +235,7 @@ button:hover {
   background-color: var(--cor-link-hover);
 }
 
-/* Tela de Input para 2 Jogadores */
+/*——— Tela de Input para 2 Jogadores ———*/
 .tela-input-jogador2 .form-jogador2 {
   display: flex;
   flex-direction: column;

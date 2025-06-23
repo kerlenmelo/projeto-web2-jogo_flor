@@ -1,77 +1,77 @@
 [
-    {
-        "palavra": "girassol",
-        "categoria": "flores",
-        "dica": "Flor amarela que segue o sol"
-    },
-    {
-        "palavra": "rosa",
-        "categoria": "flores",
-        "dica": "Tem espinhos"
-    },
-    {
-        "palavra": "margarida",
-        "categoria": "flores",
-        "dica": "Flor branca e amarela"
-    },
-    {
-        "palavra": "tulipa",
-        "categoria": "flores",
-        "dica": "Flor com pétalas grandes, geralmente de cores vibrantes"
-    },
-    {
-        "palavra": "violeta",
-        "categoria": "flores",
-        "dica": "Flor pequena de cor roxa"
-    },
-    {
-        "palavra": "elefante",
-        "categoria": "animais",
-        "dica": "Maior animal terrestre"
-    },
-    {
-        "palavra": "leão",
-        "categoria": "animais",
-        "dica": "O rei da selva"
-    },
-    {
-        "palavra": "gato",
-        "categoria": "animais",
-        "dica": "Animal doméstico que gosta de miar"
-    },
-    {
-        "palavra": "cachorro",
-        "categoria": "animais",
-        "dica": "Animal doméstico conhecido como o melhor amigo do homem"
-    },
-    {
-        "palavra": "pato",
-        "categoria": "animais",
-        "dica": "Animal que vive na água e tem bico largo"
-    },
-    {
-        "palavra": "manga",
-        "categoria": "frutas",
-        "dica": "Fruta tropical com casca amarela e polpa doce"
-    },
-    {
-        "palavra": "abacaxi",
-        "categoria": "frutas",
-        "dica": "Fruta tropical com casca espinhosa"
-    },
-    {
-        "palavra": "banana",
-        "categoria": "frutas",
-        "dica": "Fruta amarela e curvada"
-    },
-    {
-        "palavra": "laranja",
-        "categoria": "frutas",
-        "dica": "Fruta cítrica com casca laranja"
-    },
-    {
-        "palavra": "morango",
-        "categoria": "frutas",
-        "dica": "Fruta vermelha com sementes na parte externa"
-    }
+  {
+    "palavra": "girassol",
+    "categoria": "flores",
+    "dica": "Flor amarela que segue o sol"
+  },
+  {
+    "palavra": "rosa",
+    "categoria": "flores",
+    "dica": "Tem espinhos"
+  },
+  {
+    "palavra": "margarida",
+    "categoria": "flores",
+    "dica": "Flor branca e amarela"
+  },
+  {
+    "palavra": "tulipa",
+    "categoria": "flores",
+    "dica": "Flor com pétalas grandes, geralmente de cores vibrantes"
+  },
+  {
+    "palavra": "violeta",
+    "categoria": "flores",
+    "dica": "Flor pequena de cor roxa"
+  },
+  {
+    "palavra": "elefante",
+    "categoria": "animais",
+    "dica": "Maior animal terrestre"
+  },
+  {
+    "palavra": "leao",
+    "categoria": "animais",
+    "dica": "O rei da selva"
+  },
+  {
+    "palavra": "gato",
+    "categoria": "animais",
+    "dica": "Animal doméstico que gosta de miar"
+  },
+  {
+    "palavra": "cachorro",
+    "categoria": "animais",
+    "dica": "Animal doméstico conhecido como o melhor amigo do homem"
+  },
+  {
+    "palavra": "pato",
+    "categoria": "animais",
+    "dica": "Animal que vive na água e tem bico largo"
+  },
+  {
+    "palavra": "manga",
+    "categoria": "frutas",
+    "dica": "Fruta tropical com casca amarela e polpa doce"
+  },
+  {
+    "palavra": "abacaxi",
+    "categoria": "frutas",
+    "dica": "Fruta tropical com casca espinhosa"
+  },
+  {
+    "palavra": "banana",
+    "categoria": "frutas",
+    "dica": "Fruta amarela e curvada"
+  },
+  {
+    "palavra": "laranja",
+    "categoria": "frutas",
+    "dica": "Fruta cítrica com casca laranja"
+  },
+  {
+    "palavra": "morango",
+    "categoria": "frutas",
+    "dica": "Fruta vermelha com sementes na parte externa"
+  }
 ]
